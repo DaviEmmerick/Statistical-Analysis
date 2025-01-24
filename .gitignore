@@ -1,0 +1,54 @@
+# Ignorar ambientes virtuais
+.env/
+.venv/
+env/
+venv/
+
+# Ignorar bibliotecas instaladas
+lib/
+bin/
+include/
+Scripts/
+numpy/
+scipy/
+
+# Ignorar cache do Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.log
+
+# Ignorar configurações específicas de IDEs e editores
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Ignorar arquivos temporários do sistema
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Ignorar logs e relatórios
+*.log
+*.out
+*.coverage
+coverage.xml
+
+# Ignorar arquivos de teste e builds
+.tox/
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Ignorar configurações de máquinas virtuais
+.vagrant/
+*.vdi
+*.vbox
+*.vbox-prev
+*.vmwarevm/
+*.vmdk
+*.vmem
+*.vmx
+*.vmxf

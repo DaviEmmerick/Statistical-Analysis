@@ -1,0 +1,28 @@
+Resultados:
+
+Coeficiente de correlação de Pearson: 0.8999
+
+
+Resumo da Regressão Linear:
+==========================================================================================
+Dep. Variable:     Vendas de Sorvete (Quantidade)   R-squared:                       0.810
+Model:                                        OLS   Adj. R-squared:                  0.803
+Method:                             Least Squares   F-statistic:                     119.2
+Date:                            Thu, 23 Jan 2025   Prob (F-statistic):           1.34e-11
+Time:                                    19:05:39   Log-Likelihood:                -123.36
+No. Observations:                              30   AIC:                             250.7
+Df Residuals:                                  28   BIC:                             253.5
+Df Model:                                       1
+Covariance Type:                        nonrobust
+===============================================================================================
+                                  coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------
+const                         -42.0944      7.526     -5.594      0.000     -57.510     -26.679
+Temperatura (Graus Celsius)     3.1745      0.291     10.918      0.000       2.579       3.770
+==============================================================================
+Omnibus:                        2.888   Durbin-Watson:                   0.943
+Prob(Omnibus):                  0.236   Jarque-Bera (JB):                1.824
+Skew:                           0.591   Prob(JB):                        0.402
+Kurtosis:                       3.250   Cond. No.                         69.8
+==============================================================================
+
